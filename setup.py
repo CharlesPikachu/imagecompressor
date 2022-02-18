@@ -1,6 +1,6 @@
 '''
 Function:
-    setup the imagecompression
+    setup the imagecompressor
 Author:
     Charles
 微信公众号:
@@ -8,7 +8,7 @@ Author:
 GitHub:
     https://github.com/CharlesPikachu
 '''
-import imagecompression
+import imagecompressor
 from setuptools import setup, find_packages
 
 
@@ -19,9 +19,9 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 '''setup'''
 setup(
-    name=imagecompression.__title__,
-    version=imagecompression.__version__,
-    description=imagecompression.__description__,
+    name=imagecompressor.__title__,
+    version=imagecompressor.__version__,
+    description=imagecompressor.__description__,
     long_description=long_description,
     long_description_content_type='text/markdown',
     classifiers=[
@@ -30,10 +30,10 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent'
     ],
-    author=imagecompression.__author__,
-    url=imagecompression.__url__,
-    author_email=imagecompression.__email__,
-    license=imagecompression.__license__,
+    author=imagecompressor.__author__,
+    url=imagecompressor.__url__,
+    author_email=imagecompressor.__email__,
+    license=imagecompressor.__license__,
     include_package_data=True,
     package_data={},
     install_requires=list(open('requirements.txt', 'r').readlines()),
