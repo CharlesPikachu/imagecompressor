@@ -1,3 +1,3 @@
 '''initialize'''
 from .utils import EvaluationMetrics, Logger, touchdir
-from .compressors import PILCompressor, RAISRCompressor, DCTCompressor
+from .compressors import PILCompressor, RAISRCompressor, DCTCompressor, SVDCompressor

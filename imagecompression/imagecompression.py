@@ -17,6 +17,7 @@ class ImageCompressor():
     def __init__(self, compressor_type=None, logfilepath='imagecompression.log', **kwargs):
         self.logger_handle = Logger(logfilepath)
         self.supported_compressors = {
+            'svd': SVDCompressor,
             'dct': DCTCompressor,
             'pil': PILCompressor,
             'raisr': RAISRCompressor,
@@ -34,6 +35,6 @@ class ImageCompressor():
 
 '''test'''
 if __name__ == '__main__':
-    compressor = ImageCompressor('dct')
+    compressor = ImageCompressor('svd')
     image, eavl_result = compressor('input.jpg')
     print(eavl_result)
