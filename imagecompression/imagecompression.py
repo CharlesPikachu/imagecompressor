@@ -30,3 +30,10 @@ class ImageCompressor():
     '''repr'''
     def __repr__(self):
         return 'imagecompression, author: charles, 微信公众号: Charles的皮卡丘'
+
+
+'''test'''
+if __name__ == '__main__':
+    compressor = ImageCompressor('dct')
+    image, eavl_result = compressor('input.jpg')
+    print(eavl_result)

@@ -57,7 +57,7 @@ class RAISRCompressor(BaseCompressor):
         patch_size, rate = self.train_cfg['patch_size'], self.train_cfg['rate']
         image = cv2.cvtColor(image, cv2.COLOR_BGR2YCrCb)
         image_y = image[..., 2]
-        LR = cv2.resize(image_y, (0, 0), fx=rate, fy=rate)
+        LR = cv2.resize(image_y, (0, 0), fx=1./rate, fy=1./rate)
         LRDirect = np.zeros((LR.shape[0], LR.shape[1]))
         for x in range(patch_size // 2, LR.shape[0] - patch_size + patch_size // 2):
             for y in range(patch_size // 2, LR.shape[1] - patch_size + patch_size // 2):
@@ -69,9 +69,10 @@ class RAISRCompressor(BaseCompressor):
                 t = x % rate * rate + y % rate
                 A = img_patch.reshape(1, -1)
                 LRDirect[x][y] = np.matrix(H[angle, strength, coherence, t]) * A.T
-        image_scaled = cv2.resize(image, (0, 0), fx=rate, fy=rate)
+        image_scaled = cv2.resize(image, (0, 0), fx=1./rate, fy=1./rate)
         image_scaled[..., 2] = LRDirect
         image = cv2.cvtColor(image_scaled, cv2.COLOR_YCrCb2BGR)
+        image = cv2.resize(image, (0, 0), fx=rate, fy=rate)
         return image
     '''train'''
     def train(self, imagepaths=None, savename='filter.npy'):

@@ -26,6 +26,7 @@ You can star this repository to keep track of the project if it's helpful for yo
 |   :----:             |      :----:                                         | :----:                                                        | :----:                                                  | :----:                        |
 |   pil                |      N/A                                            | [click]()                                                     | [click](./imagecompression/modules/compressor/pil.py)   | PIL自带压缩算法               |
 |   raisr              |      [click](https://arxiv.org/pdf/1606.01299.pdf)  | [click]()                                                     | [click](./imagecompression/modules/compressor/raisr.py) | 谷歌RAISR算法                 |
+|   dct                |      N/A                                            | [click]()                                                     | [click](./imagecompression/modules/compressor/dct.py)   | 基于离散余弦变换的图像压缩    |
 
 
 # Install
@@ -51,7 +52,7 @@ run "pip install git+https://github.com/CharlesPikachu/imagecompression.git@mast
 
 
 # Screenshot
-![img](./docs/screenshot.gif)
+![img](./docs/screenshot.png)
 
 
 # Projects in Charles_pikachu
