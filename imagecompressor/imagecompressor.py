@@ -1,6 +1,6 @@
 '''
 Function:
-    imagecompression
+    ImageCompressor: Image compressors written by pure python
 Author:
     Charles
 微信公众号:
@@ -14,7 +14,7 @@ else:
 
 '''Image Compressor'''
 class ImageCompressor():
-    def __init__(self, compressor_type=None, logfilepath='imagecompression.log', **kwargs):
+    def __init__(self, compressor_type=None, logfilepath='imagecompressor.log', **kwargs):
         self.logger_handle = Logger(logfilepath)
         self.supported_compressors = {
             'svd': SVDCompressor,
@@ -30,7 +30,7 @@ class ImageCompressor():
         return self.compressor(imagepath, **kwargs)
     '''repr'''
     def __repr__(self):
-        return 'imagecompression, author: charles, 微信公众号: Charles的皮卡丘'
+        return 'ImageCompressor, author: charles, 微信公众号: Charles的皮卡丘'
 
 
 '''test'''

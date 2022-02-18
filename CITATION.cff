@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
   - name: "Zhenchao Jin"
-title: "Imagecompression: Image compressors written by pure python."
+title: "ImageCompressor: Image compressors written by pure python."
 date-released: 2022-02-18
-url: "https://github.com/CharlesPikachu/imagecompression"
+url: "https://github.com/CharlesPikachu/imagecompressor"
 license: MIT License
