@@ -3,7 +3,7 @@
 </div>
 <br />
 
-[![docs](https://img.shields.io/badge/docs-latest-blue)](https://imagecompressor.readthedocs.io/zh/latest/)
+[![docs](https://img.shields.io/badge/docs-latest-blue)](http://imagecompressor.readthedocs.io/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyimagecompressor)](https://pypi.org/project/pyimagecompressor/)
 [![PyPI](https://img.shields.io/pypi/v/pyimagecompressor)](https://pypi.org/project/pyimagecompressor)
 [![license](https://img.shields.io/github/license/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/blob/master/LICENSE)
@@ -11,7 +11,7 @@
 [![issue resolution](https://isitmaintained.com/badge/resolution/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/issues)
 [![open issues](https://isitmaintained.com/badge/open/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/issues)
 
-Documents: https://imagecompressor.readthedocs.io/zh/latest/
+Documents: http://imagecompressor.readthedocs.io/
 
 
 # ImageCompressor
