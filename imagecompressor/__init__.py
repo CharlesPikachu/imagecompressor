@@ -1,5 +1,5 @@
 '''title'''
-__title__ = 'imagecompressor'
+__title__ = 'pyimagecompressor'
 '''description'''
 __description__ = 'ImageCompressor: Image compressors written by pure python.'
 '''url'''

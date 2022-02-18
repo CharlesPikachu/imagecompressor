@@ -4,10 +4,10 @@
 <br />
 
 [![docs](https://img.shields.io/badge/docs-latest-blue)](https://imagecompressor.readthedocs.io/zh/latest/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/imagecompressor)](https://pypi.org/project/imagecompressor/)
-[![PyPI](https://img.shields.io/pypi/v/imagecompressor)](https://pypi.org/project/imagecompressor)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyimagecompressor)](https://pypi.org/project/pyimagecompressor/)
+[![PyPI](https://img.shields.io/pypi/v/pyimagecompressor)](https://pypi.org/project/pyimagecompressor)
 [![license](https://img.shields.io/github/license/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/blob/master/LICENSE)
-[![PyPI - Downloads](https://pepy.tech/badge/imagecompressor)](https://pypi.org/project/imagecompressor/)
+[![PyPI - Downloads](https://pepy.tech/badge/pyimagecompressor)](https://pypi.org/project/pyimagecompressor/)
 [![issue resolution](https://isitmaintained.com/badge/resolution/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/issues)
 [![open issues](https://isitmaintained.com/badge/open/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/issues)
 
@@ -34,7 +34,7 @@ You can star this repository to keep track of the project if it's helpful for yo
 
 #### Pip install
 ```
-run "pip install imagecompressor"
+run "pip install pyimagecompressor"
 ```
 
 #### Source code install
