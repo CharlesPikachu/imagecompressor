@@ -64,6 +64,7 @@ run "pip install git+https://github.com/CharlesPikachu/imagecompression.git@mast
 - [Pytools](https://github.com/CharlesPikachu/pytools): Some useful tools written by pure python.
 - [PikachuWeChat](https://github.com/CharlesPikachu/pikachuwechat): Play WeChat with itchat-uos.
 - [Pydrawing](https://github.com/CharlesPikachu/pydrawing): Beautify your image or video.
+- [Imagecompression](https://github.com/CharlesPikachu/imagecompression): Image compressors written by pure python.
 
 
 # More
