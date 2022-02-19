@@ -24,10 +24,10 @@ You can star this repository to keep track of the project if it's helpful for yo
 # Support List
 |   Compressor         |      Paper                                          | Introduction                                                  | Core Code                                                | In Chinese                    |
 |   :----:             |      :----:                                         | :----:                                                        | :----:                                                   | :----:                        |
-|   pil                |      N/A                                            | [click]()                                                     | [click](./imagecompressor/modules/compressors/pil.py)   | PIL自带压缩算法               |
-|   raisr              |      [click](https://arxiv.org/pdf/1606.01299.pdf)  | [click]()                                                     | [click](./imagecompressor/modules/compressors/raisr.py) | 谷歌RAISR算法                 |
-|   dct                |      N/A                                            | [click]()                                                     | [click](./imagecompressor/modules/compressors/dct.py)   | 基于离散余弦变换的图像压缩    |
-|   svd                |      N/A                                            | [click]()                                                     | [click](./imagecompressor/modules/compressors/svd.py)   | 基于奇异值分解的图像压缩      |
+|   pil                |      N/A                                            | [click](https://mp.weixin.qq.com/s/hkUqyCO4lC_zLo0II_NUgA)    | [click](./imagecompressor/modules/compressors/pil.py)   | PIL自带压缩算法               |
+|   raisr              |      [click](https://arxiv.org/pdf/1606.01299.pdf)  | [click](https://mp.weixin.qq.com/s/hkUqyCO4lC_zLo0II_NUgA)    | [click](./imagecompressor/modules/compressors/raisr.py) | 谷歌RAISR算法                 |
+|   dct                |      N/A                                            | [click](https://mp.weixin.qq.com/s/hkUqyCO4lC_zLo0II_NUgA)    | [click](./imagecompressor/modules/compressors/dct.py)   | 基于离散余弦变换的图像压缩    |
+|   svd                |      N/A                                            | [click](https://mp.weixin.qq.com/s/hkUqyCO4lC_zLo0II_NUgA)    | [click](./imagecompressor/modules/compressors/svd.py)   | 基于奇异值分解的图像压缩      |
 
 
 # Install
