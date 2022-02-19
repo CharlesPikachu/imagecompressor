@@ -34,7 +34,7 @@ image, eavl_result = compressor('input.jpg', quality=20)
 
 2.公众号文章介绍
 
-[Introduction]()
+[Introduction](https://mp.weixin.qq.com/s/hkUqyCO4lC_zLo0II_NUgA)
 
 3.调用示例
 
