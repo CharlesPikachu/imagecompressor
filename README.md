@@ -8,6 +8,7 @@
 [![PyPI](https://img.shields.io/pypi/v/pyimagecompressor)](https://pypi.org/project/pyimagecompressor)
 [![license](https://img.shields.io/github/license/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/blob/master/LICENSE)
 [![PyPI - Downloads](https://pepy.tech/badge/pyimagecompressor)](https://pypi.org/project/pyimagecompressor/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyimagecompressor?style=flat-square)](https://pypi.org/project/pyimagecompressor/)
 [![issue resolution](https://isitmaintained.com/badge/resolution/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/issues)
 [![open issues](https://isitmaintained.com/badge/open/CharlesPikachu/imagecompressor.svg)](https://github.com/CharlesPikachu/imagecompressor/issues)
 
@@ -71,6 +72,7 @@ image, eavl_result = compressor('input.jpg')
 - [ImageCompressor](https://github.com/CharlesPikachu/imagecompressor): Image compressors written by pure python.
 - [FreeProxy](https://github.com/CharlesPikachu/freeproxy): Collecting free proxies from internet.
 - [Paperdl](https://github.com/CharlesPikachu/paperdl): Search and download paper from specific websites.
+- [Sciogovterminal](https://github.com/CharlesPikachu/sciogovterminal): Browse "The State Council Information Office of the People's Republic of China" in the terminal.
 
 
 # More
