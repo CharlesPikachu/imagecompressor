@@ -5,4 +5,4 @@ authors:
 title: "ImageCompressor: Image compressors written by pure python."
 date-released: 2022-02-18
 url: "https://github.com/CharlesPikachu/imagecompressor"
-license: MIT License
++license: Apache-2.0
