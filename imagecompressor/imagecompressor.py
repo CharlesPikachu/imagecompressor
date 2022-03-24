@@ -25,12 +25,13 @@ class ImageCompressor():
         assert compressor_type in self.supported_compressors
         kwargs['logger_handle'] = self.logger_handle
         self.compressor = self.supported_compressors[compressor_type](**kwargs)
+        print(self)
     '''call'''
     def __call__(self, imagepath, **kwargs):
         return self.compressor(imagepath, **kwargs)
-    '''repr'''
-    def __repr__(self):
-        return 'ImageCompressor, author: charles, 微信公众号: Charles的皮卡丘'
+    '''str'''
+    def __str__(self):
+        return 'Welcome to use ImageCompressor!\nYou can visit https://github.com/CharlesPikachu/imagecompressor for more details.'
 
 
 '''test'''
